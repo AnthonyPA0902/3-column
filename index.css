@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Lexend Deca";
+    src: url("./Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Big Shoulders Display";
+    src: url("./Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.card {
+    width: 300px;
+    height: fit-content;
+    font-size: 15px;
+    padding: 40px 70px 40px 40px;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.title {
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+}
+
+.text {
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    margin-bottom: 75px;
+    line-height: 1.75em;
+}
+
+#sedansbutton {
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca";
+    padding: 10px 25px;
+}
+
+#sedansbutton:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#suvsbutton {
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca";
+    padding: 10px 25px;
+}
+
+#suvsbutton:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#luxurybutton {
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca";
+    padding: 10px 25px;
+}
+
+#luxurybutton:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+
